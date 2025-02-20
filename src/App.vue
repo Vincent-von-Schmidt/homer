@@ -36,14 +36,6 @@
           @updated="isDark = $event"
         />
 
-        <SettingToggle
-          name="vlayout"
-          icon="fa-list"
-          icon-alt="fa-columns"
-          :default-value="config.defaults.layout == 'columns'"
-          @updated="vlayout = $event"
-        />
-
         <SearchInput
           class="navbar-item is-inline-block-mobile"
           :hotkey="searchHotkey()"
